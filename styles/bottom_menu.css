@@ -1,0 +1,78 @@
+.menu_cards_container {
+  background-image: url(/images/menu_card_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1034px;
+  font-family: Tinos, "Open Sans", Arial;
+  margin: 150px 0 104px 0;
+}
+.menu_cards_title {
+  color: white;
+  font-size: 26px;
+  text-align: center;
+  padding-top: 100px;
+}
+.menu_cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 138px;
+}
+.menu_card {
+  width: 350px;
+  background-color: white;
+  position: relative;
+  text-align: center;
+  margin-left: 30px;
+}
+.recommended {
+  background-color: #d67e34;
+  font-size: 13px;
+  font-family: "Open Sans";
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-transform: uppercase;
+  padding: 7px 11px 11px 12px;
+}
+.card_cost {
+  background-color: #d67e34;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 60px;
+  position: absolute;
+  top: 250px;
+  left: 192px;
+  border: 10px solid white;
+  color: white;
+  font-family: "Cookie";
+  font-size: 30px;
+}
+.dish_one_img {
+  border-radius: 50%;
+  width: 70%;
+  object-fit: cover;
+  margin: 80px 0 30px 0;
+}
+.card_name {
+  font-size: 26px;
+}
+.card_desc {
+  font-size: 16px;
+  color: black;
+  font-family: "Open Sans";
+}
+.card_order {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 700px;
+  background-color: #d67e34;
+  color: white;
+  height: 50px;
+  width: 220px;
+  border: none;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.39);
+  margin-bottom: 29px;
+}

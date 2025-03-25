@@ -1,0 +1,26 @@
+.visitor-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.review_container {
+  text-align: center;
+  margin-bottom: 500px;
+  padding-bottom: 139px;
+  font-family: "Open Sans";
+  background-color: rgb(230, 230, 230);
+}
+.review {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  margin: 0 auto 30px;
+  width: 920px;
+}
+.visitor-img {
+  border-radius: 50px;
+}
+.visitor {
+  font-weight: bold;
+  margin: 16px 0 9px 0;
+}

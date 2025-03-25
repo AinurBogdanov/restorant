@@ -1,0 +1,141 @@
+.container {
+  margin: 0 0 0 166px;
+}
+.history {
+  margin-bottom: 100px;
+  margin-top: 162px;
+  width: 444px;
+  text-align: center;
+}
+.history_title {
+  font-size: 54px;
+  font-family: Tinos, "Open Sans", arial;
+  margin-bottom: 20px;
+}
+.history_title span {
+  color: #d67e34;
+}
+.history_description {
+  font-size: 16px;
+  color: #656363;
+  font-family: "Open Sans";
+  line-height: 24px;
+}
+.history-number {
+  display: flex;
+  justify-content: center;
+  margin-top: 39px;
+  font-family: "Open Sans", arial;
+}
+
+.number-item {
+  margin-left: 40px;
+  font-size: 40px;
+  color: #bc9060;
+}
+.history-number span {
+  display: block;
+  font-size: 20px;
+  color: black;
+}
+.first_item {
+  margin: 0;
+}
+.history_holder {
+  display: flex;
+  justify-content: space-between;
+}
+.small_img {
+  width: 258px;
+  height: 308px;
+  object-fit: cover;
+}
+
+/* position images */
+.history_images {
+  position: absolute;
+}
+.img_pos_one {
+  position: relative;
+  top: 5px;
+  left: 60px;
+  z-index: 999;
+}
+.img_pos_two {
+  position: relative;
+  top: 131px;
+  left: 108px;
+  z-index: 200;
+  position: relative;
+}
+.img-pos_tree {
+  position: relative;
+  top: 51px;
+  left: -266px;
+  z-index: 1;
+}
+/* black_row */
+.black_row {
+  background-image: url(/images/br_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 357px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.br_info {
+  width: 601px;
+  margin-left: 165px;
+}
+.br_title {
+  color: #d67e34;
+  font-family: Tinos, "Open Sans", Arial;
+  font-size: 52px;
+}
+.br_desc {
+  color: white;
+  font-family: "Open Sans", Arial;
+  font-weight: bold;
+  font-size: 24px;
+}
+.br_btn {
+  margin-right: 201px;
+}
+/* styling menu list  */
+.menu_list {
+  margin: 132px auto 0;
+  text-align: center;
+  font-family: Tinos, "Open Sans", Arial;
+  font-size: 54px;
+  width: 1129px;
+}
+.dishes_title {
+  margin-bottom: 139px;
+}
+.dishes_title span {
+  color: #d67e34;
+}
+.dishes_menu {
+  display: flex;
+}
+.dish-item {
+  display: flex;
+  margin: 0 0 0 30px;
+  align-items: center;
+}
+.dish-item img {
+  margin-right: 18px;
+  width: 160px;
+  height: 140px;
+  object-fit: cover;
+}
+.first_dish_desc {
+  font-size: 26px;
+}
+.menu_items {
+  margin-top: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
