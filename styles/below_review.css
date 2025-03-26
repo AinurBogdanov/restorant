@@ -1,0 +1,101 @@
+/* galary */
+.galary_title {
+  font-family: "Iinos", Arial;
+  font-size: 54px;
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 101px;
+}
+.galary_title span {
+  color: rgb(247, 101, 5);
+}
+.galary_flex img {
+  object-fit: cover;
+}
+.galary_flex {
+  display: flex;
+  justify-content: center;
+}
+
+.galary_one {
+  width: 540px;
+  height: 274px;
+}
+.galary_two {
+  width: 253px;
+  height: 274px;
+}
+
+.galary_three {
+  width: 253px;
+  height: 274px;
+}
+.left_part {
+  margin-right: 30px;
+}
+.galary_upside,
+.galary_downside {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.galary {
+  margin-bottom: 100px;
+}
+
+/* cooks fotos  */
+
+.our_cooks span {
+  color: rgb(235, 106, 21);
+}
+.cooks img {
+  width: 350px;
+  height: 462px;
+  margin-left: 32px;
+}
+.mx-0 {
+  margin: 0 !important;
+}
+.cooks_title {
+  font-family: tinos;
+  font-size: 54px;
+  text-align: center;
+  margin-bottom: 107px;
+}
+.cooks {
+  display: flex;
+  justify-content: center;
+}
+.our_cooks {
+  margin-bottom: 100px;
+}
+
+/* last image  */
+
+.last_img_container {
+  width: 1440px;
+  height: 30vh;
+  margin: 0 auto 100px;
+  overflow: hidden;
+}
+/* footer  */
+.scroll_up {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+.scroll_up img {
+  transform: rotate(-57deg);
+  width: 30%;
+  border-radius: 50%;
+}
+.scroll_up img:hover {
+  background-color: rgba(243, 123, 10, 0.507);
+}
+.text_scroll {
+  font-size: 30px;
+  font-family: tinos, arial;
+}

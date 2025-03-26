@@ -5,8 +5,7 @@
 }
 .review_container {
   text-align: center;
-  margin-bottom: 500px;
-  padding-bottom: 139px;
+  padding: 104px 0 139px 0;
   font-family: "Open Sans";
   background-color: rgb(230, 230, 230);
 }
